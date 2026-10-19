@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>input test</title>
   </head>
   <body>
     <h1>회원가입</h1>
 
     <form>
-      <table border="1" cellspacing="0" cellpadding="0" width="600" height="0">
-        <tr>
+      <table width="600" class="inputbox">
+        <tr class="inbox">
           <td>아이디</td>
           <td>
             <input
@@ -20,44 +21,44 @@
             />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>비밀번호</td>
           <td>
             <input type="password" name="password" />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>회원이름</td>
           <td>
             <input type="text" name="membername" />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>전화번호</td>
           <td>
             <input type="text" name="memberphone" />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>이메일</td>
           <td>
             <input type="email" name="membermail" />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>회원주소</td>
           <td>
             <input type="text" name="memberadd" />
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>성별</td>
           <td>
             <input type="radio" name="membersex" value="male" checked />남성
             <input type="radio" name="membersex" value="female" />여성
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>취미</td>
           <td>
             <input type="checkbox" name="memberhobby" value="sports" />운동
@@ -66,7 +67,7 @@
             <input type="checkbox" name="memberhobby" value="music" />음악
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td>자기소개</td>
           <td>
             <textarea
@@ -76,7 +77,7 @@
             ></textarea>
           </td>
         </tr>
-        <tr>
+        <tr class="inbox">
           <td colspan="2" align="right">
             <label>가입완료</label>
             <input type="submit" />
