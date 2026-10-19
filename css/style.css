@@ -1,0 +1,20 @@
+.red {
+  color: aqua;
+  font-size: 30px;
+}
+h1.blue {
+  color: rgb(145, 255, 0);
+  font-size: 30px;
+}
+
+p.green {
+  color: rgb(0, 4, 255);
+  font-size: 30px;
+}
+#gray {
+  color: brown;
+  font-size: 40px;
+  font-family:
+    궁서체,
+    맑은 고딕;
+}
